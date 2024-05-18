@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        #blueButton {
+            background-color: rgb(73, 171, 224);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #yellowButton {
+            background-color: rgb(15, 221, 156);
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #paragraphBGC {
+            background-color: rgb(203, 85, 163);
+            color: black;
+            padding: 5px 10px;
+            /* Adjust the padding to make the button smaller */
+            border: none;
+            border-radius: 12px;
+            /* Add border-radius to round the borders */
+            cursor: pointer;
+        }
+
+        #simpleButton {
+            background-color: aqua;
+            color: green;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="IWillChangeItsColor">Javascript Varibles </h1>
+    <button id="blueButton" onclick="changeBackgroundColorOfBody('rgb(73, 171, 224)')">Make the background color like
+        me</button>
+
+    <button id="yellowButton" onclick="changeBackgroundColorOfBody('rgb(15, 221, 156)')">Make the background color like
+        me</button>
+        <button>it's a button</button>
+    <button onclick="changeToRandomColor()">Change to random color</button>
+
+
+    <p id="myParagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad soluta veritatis itaque expedita
+        eos eveniet? Excepturi ex alias aperiam molestiae, nesciunt id quas earum nisi, odit fuga repellendus
+        consequatur numquam.</p>
+
+    <button id="paragraphBGC" onclick="changeBackgroundColorOfParapraph()">Change background color</button>
+
+
+    <button onclick="changeTextColor()">Change text color</button>
+    <button onclick="changeFontSize()">Change font size</button>
+    <button onclick="changeFontFamily()">Change font family</button>
+    <button onclick="hideParagraph()">Hide paragraph</button>
+    <button onclick="showParagraph()">Show paragraph</button>
+<!-- <button onclick="moveBlock()">Move block</button> -->
+        <br> 
+        <hr>
+        <button id = "simpleButton" onclick="changeBGColorOfH1()">this is a simple button</button>
+
+
+
+
+<!-- <div id="myBlock" style="background-color:blue; width: 50px; height: 50px; position: absolute; left: 0;"></div> -->
+
+
+    <script src="script.js"></script>
+    <script src="buttonsPower.js"></script>
+</body>
+
+</html>
