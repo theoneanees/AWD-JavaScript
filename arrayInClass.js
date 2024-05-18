@@ -1,7 +1,6 @@
 let marks = [41, 50, 42, 39, 45, 34, 28]
 console.log(marks.sort());
 
-89
 
 let larkioKaBag = ["lipstick", "makeUP", "Nail polish", "perfume", "body spray", "brush", "body Mist"]
 
