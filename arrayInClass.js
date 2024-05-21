@@ -15,5 +15,6 @@ let larkioKaBag = ["lipstick", "makeUP", "Nail polish", "perfume", "body spray",
 //     console.log(item, index )
 // });
 
+console.log("this is my new work");
 
 // // console.log(larkioKaBag[0, 10]);
